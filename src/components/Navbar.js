@@ -1,5 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Logo from '../images/logo-dark.svg'

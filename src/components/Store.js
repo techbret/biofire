@@ -1,19 +1,3 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
 import { useState } from 'react'
 import { CheckIcon, QuestionMarkCircleIcon, StarIcon } from '@heroicons/react/solid'
 import { RadioGroup } from '@headlessui/react'
@@ -177,7 +161,7 @@ export default function Store() {
                 </RadioGroup>
               </div>
               <div className="mt-4">
-                <a href="#" className="group inline-flex text-sm text-gray-500 hover:text-gray-700">
+                <a href="/home" className="group inline-flex text-sm text-gray-500 hover:text-gray-700">
                   <span>Why our handgun?</span>
                   <QuestionMarkCircleIcon
                     className="flex-shrink-0 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
@@ -194,7 +178,7 @@ export default function Store() {
                 </button>
               </div>
               <div className="mt-6 text-center">
-                <a href="#" className="group inline-flex text-base font-medium">
+                <a href="/" className="group inline-flex text-base font-medium">
                   <ShieldCheckIcon
                     className="flex-shrink-0 mr-2 h-6 w-6 text-gray-400 group-hover:text-gray-500"
                     aria-hidden="true"

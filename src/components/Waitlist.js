@@ -199,7 +199,7 @@ export default function Waitlist() {
                             </dl>
                             <ul role="list" className="mt-8 flex space-x-12">
                                 <li>
-                                    <a className="text-cyan-200 hover:text-indigo-100" href="#">
+                                    <a className="text-cyan-200 hover:text-indigo-100" href="facebook.com">
                                         <span className="sr-only">Facebook</span>
                                         <svg
                                             width={24}
@@ -218,7 +218,7 @@ export default function Waitlist() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text-cyan-200 hover:text-indigo-100" href="#">
+                                    <a className="text-cyan-200 hover:text-indigo-100" href="github.com/techbret">
                                         <span className="sr-only">GitHub</span>
                                         <svg
                                             width={24}
@@ -237,7 +237,7 @@ export default function Waitlist() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text-cyan-200 hover:text-indigo-100" href="#">
+                                    <a className="text-cyan-200 hover:text-indigo-100" href="twitter.com">
                                         <span className="sr-only">Twitter</span>
                                         <svg
                                             width={24}

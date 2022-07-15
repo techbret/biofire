@@ -1,19 +1,3 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 const posts = [
     {
       title: 'Biofire raises $17M and emerges from stealth',
@@ -88,7 +72,7 @@ const posts = [
                 <p className="text-sm text-gray-500">
                   <time dateTime={post.datetime}>{post.date}</time>
                 </p>
-                <a href="#" className="mt-2 block">
+                <a href={post.href} className="mt-2 block">
                   <p className="text-xl font-semibold text-gray-900">{post.title}</p>
                   <p className="mt-3 text-base text-gray-500">{post.description}</p>
                 </a>
