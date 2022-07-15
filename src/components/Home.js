@@ -20,7 +20,7 @@ const features = [
     },
     {
         name: 'Secured',
-        description: 'Our Technology is secure, dafe, and fast. We are commited to solving a with lazer focused secure technology',
+        description: 'Our technology is secure, safe, and fast. We are commited to solving a problem with lazer focuse and secure technology',
         icon: LockClosedIcon,
     },
     {
