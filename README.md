@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# Biofire Example for Job Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This project was designed by Bret Johnson as a simple example to demonstrate React front end skill sets.
 
-## Available Scripts
+Thank you for your consideration
+
+
+## This is a React App
 
 In the project directory, you can run:
 

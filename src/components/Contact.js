@@ -1,19 +1,3 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import { useState } from 'react'
 import { Switch } from '@headlessui/react'
 import { MailIcon } from '@heroicons/react/outline'
@@ -203,11 +187,11 @@ export default function Contact() {
                 <div className="ml-3">
                   <p className="text-base text-gray-500">
                     By selecting this, you agree to the{' '}
-                    <a href="#" className="font-medium text-gray-700 underline">
+                    <a href="/" className="font-medium text-gray-700 underline">
                       Privacy Policy
                     </a>{' '}
                     and{' '}
-                    <a href="#" className="font-medium text-gray-700 underline">
+                    <a href="/" className="font-medium text-gray-700 underline">
                       Cookie Policy
                     </a>
                     .
