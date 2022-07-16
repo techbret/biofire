@@ -2,6 +2,8 @@
 
 ## This project was designed by Bret Johnson as a simple example to demonstrate React front end skill sets.
 
+Check out the demo at [LIVE DEMO](https://sparkling-melomakarona-1743c6.netlify.app/).
+
 Thank you for your consideration
 
 
